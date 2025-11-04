@@ -1,6 +1,6 @@
 <metadata>
   <title><![CDATA[ HEKTAR BUNDLE ]]></title>
-  <threadUrl><![CDATA[https://ftlmultiverse.boards.net/thread/62/mv-5-4-hektar-collection]]></threadUrl>
+  <threadUrl><![CDATA[https://ftlmultiverse.boards.net/thread/184/mv-5-hektar-bundle]]></threadUrl>
   <author><![CDATA[ Pepson, DZenith, Chrono Vortex, RoadTrain, Duodecimus ]]></author>
   <version><![CDATA[ 0.1 ]]></version>
   <description>
@@ -9,7 +9,7 @@ An expansion themed after Hektar Industries(tm).
 This is a merge of the mods Hektar Collection and Hektar Expansion, and the vast majority of content is sourced from those mods.
 
 Hektar Collection: https://ftlmultiverse.boards.net/thread/62/mv-5-4-hektar-collection
-Hektar Expansion: https://ftlmultiverse.boards.net/thread/71/5-4-6-hektar-expansion]
+Hektar Expansion: https://ftlmultiverse.boards.net/thread/71/5-4-6-hektar-expansion
 
 Patch Order:
 - Below Multiverse
@@ -53,13 +53,13 @@ Credits:
 
 Changelog, Post merge
 - Version 0.1
-    merged Hektar Collections and Hektar Expansions into one zip
-    fixed hektar player ship achievments
-    changed Hektar Manager's bribe ability to not effect drones
-    lowered Hektar Manager's damage/repair aura to 1.25
-    fixed animations for charge/chain/adaptive modular weapons
-    set Missile, Ion and Bomb hektar charge weapons to be magnifiers, gaining 1 damage per charge
-    added a number of Hektar weapons to bluelists
+    Merged Hektar Collections and Hektar Expansions into one zip
+    Fixed hektar player ship acheivments
+    Changed Hektar Manager's bribe ability to not effect drones
+    Lowered Hektar Manager's damage/repair aura to 1.25
+    Fixed animations for charge/chain/adaptive modular weapons
+    Set Missile, Ion and Bomb hektar charge weapons to be magnifiers, gaining 1 damage per charge
+    Added a number of Hektar weapons to bluelists
 ]]>
   </description>
 </metadata>
