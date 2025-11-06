@@ -54,3 +54,9 @@ Changelog, Post merge
     Fixed animations for charge/chain/adaptive modular weapons
     Set Missile, Ion and Bomb hektar charge weapons to be magnifiers, gaining 1 damage per charge
     Added a number of Hektar weapons to bluelists
+- V 0.1.1
+    Fixed pathing error that caused a game crash
+- V 0.1.2
+    Fixed some modular boarding/defender drones from not showing up in the toggle menu
+    Added a label to the toggle menu for which modules the drone has equipped
+    Clarified that crew drones with the Accurate Module have increased ranged damage, not combat

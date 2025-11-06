@@ -93,7 +93,7 @@ Laser/Ion Effects: +20% accuracy buff
 Missile/Bomb Effects: +100% accuracy buff
 Mine Launcher Effects: +100% accuracy buff, -10 spread
 Flak Effects: -10 spread, +10% accuracy buff
-Boarding Drone: 2.1x damage, -25 hp</mod-append:desc>
+Boarding Drone: 2.1x ranged damage, -25 hp</mod-append:desc>
 </mod:findName>
 	
 <mod:findName type="weaponBlueprint" name="MODULE_BIO">
@@ -14226,10 +14226,8 @@ Status - Stun</desc>
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
 	Charge
+
 -150 HP, 1.1x combat damage
 -0.8x movement speed</desc>
 	<power>2</power>
@@ -14285,10 +14283,8 @@ Status - Stun</desc>
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Status - Bio
 
 -Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
@@ -14311,7 +14307,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Status - Bio
 
 -Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
@@ -14350,10 +14347,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Status - Stun
 
 -Periodic Ability: Stun crews in the room
@@ -14376,7 +14371,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Status - Stun
 
 -Periodic Ability: Stun crews in the room
@@ -14415,10 +14411,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Status - Lockdown
 
 -Periodic Ability: Lock down the room
@@ -14441,7 +14435,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Status - Lockdown
 
 -Periodic Ability: Lock down the room
@@ -14480,10 +14475,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Status - Pierce
 
 -Faster Deployement
@@ -14508,7 +14501,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Status - Pierce
 
 -Faster Deployement
@@ -14549,10 +14543,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Status - Cooldown
 
 -2x attack speed
@@ -14575,7 +14567,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Status - Cooldown
 
 -2x attack speed
@@ -14614,13 +14607,11 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<cost>50</cost>
@@ -14639,10 +14630,11 @@ Attribute - Accuracy
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<speed>18</speed>
@@ -14677,15 +14669,13 @@ Attribute - Accuracy
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Bio
 
 -Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<cost>50</cost>
@@ -14704,12 +14694,13 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Bio
 
 -Passive Ability: enemy crew in the room get 66% slowed speed/repairs and lose 2hp/s
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<speed>18</speed>
@@ -14744,15 +14735,13 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Stun
 
 -Periodic Ability: Stun crews in the room
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<cost>50</cost>
@@ -14771,12 +14760,13 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Stun
 
 -Periodic Ability: Stun crews in the room
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<speed>18</speed>
@@ -14811,15 +14801,13 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Lockdown
 
 -Periodic Ability: Lock down the room
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<cost>50</cost>
@@ -14838,12 +14826,13 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Lockdown
 
 -Periodic Ability: Lock down the room
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<speed>18</speed>
@@ -14878,17 +14867,15 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
 -3x sabotage damage
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<cost>50</cost>
@@ -14907,14 +14894,15 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Pierce
 
 -Faster Deployement
 -Breaks down door faster
 -3x sabotage damage
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<speed>35</speed>
@@ -14949,15 +14937,13 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Cooldown
 
 -2x attack speed
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<cost>50</cost>
@@ -14976,12 +14962,13 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Accuracy
 Status - Cooldown
 
 -2x attack speed
--125 HP, 1.1x combat damage, 2.1x combat damage
+-125 HP, 1.1x combat damage, 2.1x ranged damage
 -0.8x movement speed</desc>
 	<power>2</power>
 	<speed>18</speed>
@@ -15016,10 +15003,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 
 -Periodic Ability: Light fires in the room
@@ -15042,7 +15027,8 @@ Attribute - Fire
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 
 -Periodic Ability: Light fires in the room
@@ -15081,10 +15067,8 @@ Attribute - Fire
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Bio
 
@@ -15109,7 +15093,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Bio
 
@@ -15150,10 +15135,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Stun
 
@@ -15178,7 +15161,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Stun
 
@@ -15219,10 +15203,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Lockdown
 
@@ -15247,7 +15229,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Lockdown
 
@@ -15288,10 +15271,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Pierce
 
@@ -15318,7 +15299,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Pierce
 
@@ -15361,10 +15343,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Cooldown
 
@@ -15389,7 +15369,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Cooldown
 
@@ -15430,10 +15411,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 
 -350 HP, 1.1x combat damage
@@ -15455,7 +15434,8 @@ Attribute - Hull
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 
 -350 HP, 1.1x combat damage
@@ -15493,10 +15473,8 @@ Attribute - Hull
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Bio
 
@@ -15520,7 +15498,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Bio
 
@@ -15560,10 +15539,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Stun
 
@@ -15587,7 +15564,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Stun
 
@@ -15627,10 +15605,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Lockdown
 
@@ -15654,7 +15630,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Lockdown
 
@@ -15694,10 +15671,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Pierce
 
@@ -15723,7 +15698,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Pierce
 
@@ -15765,10 +15741,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Cooldown
 
@@ -15792,7 +15766,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Cooldown
 
@@ -15832,10 +15807,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 
 -200 HP, 2.1x combat damage
@@ -15857,7 +15830,8 @@ Attribute - Power
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 
 -200 HP, 2.1x combat damage
@@ -15895,10 +15869,8 @@ Attribute - Power
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Bio
 
@@ -15922,7 +15894,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Bio
 
@@ -15962,10 +15935,8 @@ Status - Bio
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Stun
 
@@ -15989,7 +15960,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Stun
 
@@ -16029,10 +16001,8 @@ Status - Stun
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge	Incompatible with the following module(s):
-	Adaptive
-	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Lockdown
 
@@ -16056,7 +16026,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Lockdown
 
@@ -16096,7 +16067,8 @@ Status - Lockdown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Pierce
 
@@ -16122,7 +16094,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Pierce
 
@@ -16164,7 +16137,8 @@ Status - Pierce
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Cooldown
 
@@ -16188,7 +16162,8 @@ Status - Cooldown
 	Incompatible with the following module(s):
 	Adaptive
 	Chain
-	Charge----CURRENTLY INSTALLED MODULES----
+	Charge
+	----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Cooldown
 

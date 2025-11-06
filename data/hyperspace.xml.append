@@ -153,10 +153,10 @@
 
 
 <mod:findLike type="scripts">
-	<mod-append:script>data/hek_ev_scripts/ach_hektar.lua</mod-append:script>
-	<mod-append:script>data/hek_ev_scripts/modular_artillery.lua</mod-append:script>
-	<mod-append:script>data/hek_ev_scripts/hektar_weapons.lua</mod-append:script>
-	<mod-append:script>data/hek_ev_scripts/hektar_testing_scripts.lua</mod-append:script>
+	<mod-append:script>data/hek_bun_scripts/ach_hektar.lua</mod-append:script>
+	<mod-append:script>data/hek_bun_scripts/modular_artillery.lua</mod-append:script>
+	<mod-append:script>data/hek_bun_scripts/hektar_weapons.lua</mod-append:script>
+	<mod-append:script>data/hek_bun_scripts/hektar_testing_scripts.lua</mod-append:script>
 </mod:findLike>
 
 <mod:findLike type="store">

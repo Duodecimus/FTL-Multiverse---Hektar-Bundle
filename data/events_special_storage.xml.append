@@ -15397,13 +15397,13 @@
 <FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder X/X) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder X/X) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE</loadEvent>
 		</event>
@@ -15463,13 +15463,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder X/Bio) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_BIO</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder X/Bio) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_BIO</loadEvent>
 		</event>
@@ -15529,13 +15529,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder X/Stun) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_STUN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder X/Stun) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_STUN</loadEvent>
 		</event>
@@ -15595,13 +15595,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder X/Lockdown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_LOCKDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder X/Lockdown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_LOCKDOWN</loadEvent>
 		</event>
@@ -15661,13 +15661,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder X/Pierce) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_PIERCE</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder X/Pierce) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_PIERCE</loadEvent>
 		</event>
@@ -15727,13 +15727,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_BASE_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder X/Cooldown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_BASE_COOLDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder X/Cooldown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_BASE_COOLDOWN</loadEvent>
 		</event>
@@ -15792,31 +15792,31 @@
 	</FTL>
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
-	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY" blue="false">
+		<text>(Mod. Boarder Accuracy/X) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY</loadEvent>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY" blue="false">
+		<text>(Mod. Boarder Accuracy/X) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY</loadEvent>
 		</event>
 	</mod-append:choice>
 	</mod:findName>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Boarding Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -15830,18 +15830,18 @@
 			<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 		</choice>
 	</event>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Defensive Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_BOARDER_ACCURACY"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -15859,13 +15859,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Accuracy/Bio) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_BIO</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Accuracy/Bio) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_BIO</loadEvent>
 		</event>
@@ -15925,13 +15925,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Accuracy/Stun) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_STUN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Accuracy/Stun) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_STUN</loadEvent>
 		</event>
@@ -15991,13 +15991,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Accuracy/Lockdown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_LOCKDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Accuracy/Lockdown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_LOCKDOWN</loadEvent>
 		</event>
@@ -16057,13 +16057,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Accuracy/Pierce) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_PIERCE</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Accuracy/Pierce) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_PIERCE</loadEvent>
 		</event>
@@ -16123,13 +16123,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_ACCURACY_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Accuracy/Cooldown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_ACCURACY_COOLDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Accuracy/Cooldown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_ACCURACY_COOLDOWN</loadEvent>
 		</event>
@@ -16188,31 +16188,31 @@
 	</FTL>
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
-	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE" blue="false">
+		<text>(Mod. Boarder Fire/X) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE</loadEvent>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE" blue="false">
+		<text>(Mod. Boarder Fire/X) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE</loadEvent>
 		</event>
 	</mod-append:choice>
 	</mod:findName>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Boarding Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_DEFENSE_FIRE"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_BOARDER_FIRE"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -16226,18 +16226,18 @@
 			<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 		</choice>
 	</event>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Defensive Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_BOARDER_FIRE_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_BOARDER_FIRE"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_DEFENSE_FIRE"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -16255,13 +16255,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Fire/Bio) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_BIO</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Fire/Bio) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_BIO</loadEvent>
 		</event>
@@ -16321,13 +16321,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Fire/Stun) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_STUN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Fire/Stun) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_STUN</loadEvent>
 		</event>
@@ -16387,13 +16387,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Fire/Lockdown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_LOCKDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Fire/Lockdown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_LOCKDOWN</loadEvent>
 		</event>
@@ -16453,13 +16453,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Fire/Pierce) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_PIERCE</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Fire/Pierce) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_PIERCE</loadEvent>
 		</event>
@@ -16519,13 +16519,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_FIRE_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Fire/Cooldown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_FIRE_COOLDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Fire/Cooldown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_FIRE_COOLDOWN</loadEvent>
 		</event>
@@ -16584,31 +16584,31 @@
 	</FTL>
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
-	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL" blue="false">
+		<text>(Mod. Boarder Hull/X) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL</loadEvent>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL" blue="false">
+		<text>(Mod. Boarder Hull/X) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL</loadEvent>
 		</event>
 	</mod-append:choice>
 	</mod:findName>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Boarding Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_DEFENSE_HULL"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_BOARDER_HULL_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_BOARDER_HULL"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -16622,18 +16622,18 @@
 			<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 		</choice>
 	</event>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Defensive Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_BOARDER_HULL_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_BOARDER_HULL"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_DEFENSE_HULL"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -16651,13 +16651,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Hull/Bio) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_BIO</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Hull/Bio) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_BIO</loadEvent>
 		</event>
@@ -16717,13 +16717,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Hull/Stun) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_STUN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Hull/Stun) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_STUN</loadEvent>
 		</event>
@@ -16783,13 +16783,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Hull/Lockdown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_LOCKDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Hull/Lockdown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_LOCKDOWN</loadEvent>
 		</event>
@@ -16849,13 +16849,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Hull/Pierce) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_PIERCE</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Hull/Pierce) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_PIERCE</loadEvent>
 		</event>
@@ -16915,13 +16915,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_HULL_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Hull/Cooldown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_HULL_COOLDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Hull/Cooldown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_HULL_COOLDOWN</loadEvent>
 		</event>
@@ -16980,31 +16980,31 @@
 	</FTL>
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
-	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER" blue="false">
+		<text>(Mod. Boarder Power/X) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER</loadEvent>
 		</event>
 	</mod-append:choice>
-	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER_BASE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER" blue="false">
+		<text>(Mod. Boarder Power/X) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
-			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_BASE</loadEvent>
+			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER</loadEvent>
 		</event>
 	</mod-append:choice>
 	</mod:findName>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Boarding Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_DEFENSE_POWER"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_BOARDER_POWER_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_BOARDER_POWER"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -17018,18 +17018,18 @@
 			<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
 		</choice>
 	</event>
-	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_BASE">
+	<event name="COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER">
 		<text>Are you sure you want to change the drone's settings?</text>
 		<choice hidden="true">
 			<text>Set the drone to Defensive Mode.</text>
 			<event>
 				<text>You start calibrating the drone...</text>
-				<remove name="MODULAR_DRONEBATTLE_BOARDER_POWER_BASE"/>
+				<remove name="MODULAR_DRONEBATTLE_BOARDER_POWER"/>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
 						<text>You finish calibrating the drone successfully.</text>
-						<drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER_BASE"/>
+						<drone name="MODULAR_DRONEBATTLE_DEFENSE_POWER"/>
 						<choice hidden="true">
 							<text>Continue...</text>
 							<event load="COMBAT_CHECK_TOGGLE_LOAD"/>
@@ -17047,13 +17047,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Power/Bio) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_BIO</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER_BIO" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Power/Bio) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_BIO</loadEvent>
 		</event>
@@ -17113,13 +17113,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Power/Stun) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_STUN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER_STUN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Power/Stun) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_STUN</loadEvent>
 		</event>
@@ -17179,13 +17179,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Power/Lockdown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_LOCKDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Power/Lockdown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_LOCKDOWN</loadEvent>
 		</event>
@@ -17245,13 +17245,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Power/Pierce) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_PIERCE</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER_PIERCE" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Power/Pierce) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_PIERCE</loadEvent>
 		</event>
@@ -17311,13 +17311,13 @@
 	<FTL>
 	<mod:findName type="event" name="COMBAT_CHECK_TOGGLE">
 	<mod-append:choice req="MODULAR_DRONEBATTLE_DEFENSE_POWER_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Anti-Person]</text>
+		<text>(Mod. Boarder Power/Cooldown) Set the state of the drone. [Current mode: Anti-Person]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BATTLE_POWER_COOLDOWN</loadEvent>
 		</event>
 	</mod-append:choice>
 	<mod-append:choice req="MODULAR_DRONEBATTLE_BOARDER_POWER_COOLDOWN" blue="false">
-		<text>(Mod. Boarder) Set the state of the drone. [Current mode: Boarder]</text>
+		<text>(Mod. Boarder Power/Cooldown) Set the state of the drone. [Current mode: Boarder]</text>
 		<event>
 			<loadEvent>COMBAT_CHECK_MODULAR_DRONEBATTLE_BOARDER_POWER_COOLDOWN</loadEvent>
 		</event>

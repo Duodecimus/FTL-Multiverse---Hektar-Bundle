@@ -50,10 +50,28 @@ function give_hektar_drones(hektarDrones)
     Hyperspace.App.gui.equipScreen:AddDrone(droneBlueprint, true, false)
   end
 end
-
+-- 0 all modules
 -- 1 to 22 are charge, adaptive and chain - hektar expansion
 -- 23 to 41 are bombs, flak, pinpoint and mines - hektar collection
 -- 24 to 55 are attack drones laser/beam/ion- hektar collection
+local modules = {
+  "MODULE_ADAPT",
+  "MODULE_CHAIN",
+  "MODULE_BIO",
+  "MODULE_COOLDOWN",
+  "MODULE_LOCKDOWN",
+  "MODULE_PIERCE",
+  "MODULE_STUN",
+  "MODULE_ACCURACY",
+  "MODULE_CHARGE",
+  "MODULE_FIRE",
+  "MODULE_HULL",
+  "MODULE_POWER",
+}
+function hek0()
+  give_hektar_weapons(modules)
+end
+
 local minelauncheradapt = {
   "MODULAR_MINELAUNCHER_BASE_ADAPT",
   "MODULAR_MINELAUNCHER_ACCURACY_ADAPT",
