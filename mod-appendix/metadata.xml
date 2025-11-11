@@ -66,6 +66,9 @@ Changelog, Post merge
     Fixed some modular boarding/defender drones from not showing up in the toggle menu
     Added a label to the toggle menu for which modules the drone has equipped
     Clarified that crew drones with the Accurate Module have increased ranged damage, not combat
+- V 0.1.3
+    Cleared out the duplicate Hektar crew drones from the Crapbucket list
+    Added Hektar attack drones to the Crapbucket list, and to a number of bluelists
 ]]>
   </description>
 </metadata>
