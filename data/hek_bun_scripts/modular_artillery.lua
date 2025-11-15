@@ -29,22 +29,22 @@ hektar.arti.arti = {
 }
 
 hektar.arti.moduleStatus = {
-    "MODULAR_BIO",
-    "MODULAR_STUN",
-    "MODULAR_PIERCE",
-    "MODULAR_LOCKDOWN",
-    "MODULAR_COOLDOWN"
+    "artillery_module_bio",
+    "artillery_module_stun",
+    "artillery_module_pierce",
+    "artillery_module_lockdown",
+    "artillery_module_cooldown"
 }
 hektar.arti.moduleAttribute = {
-    "MODULAR_POWER",
-    "MODULAR_HULL",
-    "MODULAR_FIRE",
-    "MODULAR_ACCURACY"
+    "artillery_module_power",
+    "artillery_module_hull",
+    "artillery_module_fire",
+    "artillery_module_accuracy"
 }
 
 function hektar.arti.getAttribute(ship)
     for _, module in ipairs(hektar.arti.moduleAttribute) do
-        if ship:HasAugmentation(module) > 0 then
+        if Hyperspace.playerVariables[module] > 0 then
             return module
         end
     end
@@ -52,7 +52,7 @@ end
 
 function hektar.arti.getStatus(ship)
     for _, module in ipairs(hektar.arti.moduleStatus) do
-        if ship:HasAugmentation(module) > 0 then
+        if Hyperspace.playerVariables[module] > 0 then
             return module
         end
     end
@@ -63,15 +63,15 @@ hektar.arti.alwayshit = false
 hektar.arti.lockdown = false
 
 hektar.arti.laser = {
-    MODULAR_BIO = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 10 weapon.blueprint.damage.iShieldPiercing = 1 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 1  end },
-    MODULAR_STUN = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 20 end },
-    MODULAR_PIERCE = { add = "modular_artillery/modules/pierce.png", addOn = "modular_artillery/modules/pierceOn.png", effect = function(weapon) weapon.blueprint.damage.iShieldPiercing = 2 end },
-    MODULAR_LOCKDOWN = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) weapon.blueprint.damage.bLockdown = true end },
-    MODULAR_COOLDOWN = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 20 end },
-    MODULAR_POWER = {add = "modular_artillery/modules/laser/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 2 end },
-    MODULAR_HULL = {add = "modular_artillery/modules/laser/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 weapon.blueprint.damage.bHullBuster = true end },
-    MODULAR_FIRE = {add = "modular_artillery/modules/laser/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 end },
-    MODULAR_ACCURACY = {add = "modular_artillery/modules/laser/accuracy.png", effect = function(weapon) hektar.arti.alwayshit = true end }
+    artillery_module_bio = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 10 weapon.blueprint.damage.iShieldPiercing = 1 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 1  end },
+    artillery_module_stun = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 20 end },
+    artillery_module_pierce = { add = "modular_artillery/modules/pierce.png", addOn = "modular_artillery/modules/pierceOn.png", effect = function(weapon) weapon.blueprint.damage.iShieldPiercing = 2 end },
+    artillery_module_lockdown = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) weapon.blueprint.damage.bLockdown = true end },
+    artillery_module_cooldown = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 20 end },
+    artillery_module_power = {add = "modular_artillery/modules/laser/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 2 end },
+    artillery_module_hull = {add = "modular_artillery/modules/laser/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 weapon.blueprint.damage.bHullBuster = true end },
+    artillery_module_fire = {add = "modular_artillery/modules/laser/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 end },
+    artillery_module_accuracy = {add = "modular_artillery/modules/laser/accuracy.png", effect = function(weapon) hektar.arti.alwayshit = true end }
 }
 
 function hektar.arti.laser.resetStats(weapon)
@@ -95,14 +95,14 @@ end
 
 --Missile Configuration
 hektar.arti.missile = {
-    MODULAR_BIO = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 13 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 2 hektar.arti.missile.aoeStatus = function(damage) damage.iPersDamage = 3 end  end },
-    MODULAR_STUN = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 40 hektar.arti.missile.aoeStatus = function(damage) damage.stunChance = 10 damage.iStun = 20 end end },
-    MODULAR_LOCKDOWN = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) weapon.blueprint.damage.bLockdown = true hektar.arti.missile.aoeStatus = function(damage) damage.bLockdown = true end end },
-    MODULAR_COOLDOWN = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 30 end },
-    MODULAR_POWER = {add = "modular_artillery/modules/missile/power.png", effect = function(weapon) weapon.blueprint.damage.iSystemDamage = 2 hektar.arti.missile.aoeAttribute = function(damage) damage.iSystemDamage = 2 end end },
-    MODULAR_HULL = {add = "modular_artillery/modules/missile/hull.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 3 weapon.blueprint.damage.breachChance = 10 hektar.arti.missile.aoeAttribute = function(damage) damage.breachChance = 10 end end },
-    MODULAR_FIRE = {add = "modular_artillery/modules/missile/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 hektar.arti.missile.aoeAttribute = function(damage) damage.fireChance = 10 end end },
-    MODULAR_ACCURACY = {add = "modular_artillery/modules/missile/accuracy.png", effect = function(weapon) hektar.arti.alwayshit = true end }
+    artillery_module_bio = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 13 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 2 hektar.arti.missile.aoeStatus = function(damage) damage.iPersDamage = 3 end  end },
+    artillery_module_stun = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 40 hektar.arti.missile.aoeStatus = function(damage) damage.stunChance = 10 damage.iStun = 20 end end },
+    artillery_module_lockdown = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) weapon.blueprint.damage.bLockdown = true hektar.arti.missile.aoeStatus = function(damage) damage.bLockdown = true end end },
+    artillery_module_cooldown = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 30 end },
+    artillery_module_power = {add = "modular_artillery/modules/missile/power.png", effect = function(weapon) weapon.blueprint.damage.iSystemDamage = 2 hektar.arti.missile.aoeAttribute = function(damage) damage.iSystemDamage = 2 end end },
+    artillery_module_hull = {add = "modular_artillery/modules/missile/hull.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 3 weapon.blueprint.damage.breachChance = 10 hektar.arti.missile.aoeAttribute = function(damage) damage.breachChance = 10 end end },
+    artillery_module_fire = {add = "modular_artillery/modules/missile/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 hektar.arti.missile.aoeAttribute = function(damage) damage.fireChance = 10 end end },
+    artillery_module_accuracy = {add = "modular_artillery/modules/missile/accuracy.png", effect = function(weapon) hektar.arti.alwayshit = true end }
 }
 
 function hektar.arti.missile.resetStats(weapon)
@@ -127,14 +127,14 @@ end
 
 --Beam Configuration
 hektar.arti.beam = {
-    MODULAR_BIO = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 6 weapon.blueprint.damage.iShieldPiercing = 2 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 2  end },
-    MODULAR_STUN = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 20 end },
-    MODULAR_PIERCE = { add = "modular_artillery/modules/pierce.png", addOn = "modular_artillery/modules/pierceOn.png", effect = function(weapon) weapon.blueprint.damage.iShieldPiercing = 1 end },
-    MODULAR_LOCKDOWN = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) hektar.arti.lockdown = true end },
-    MODULAR_COOLDOWN = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 21 end },
-    MODULAR_POWER = {add = "modular_artillery/modules/beam/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 4 end },
-    MODULAR_HULL = {add = "modular_artillery/modules/beam/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 end },
-    MODULAR_FIRE = {add = "modular_artillery/modules/beam/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 end }
+    artillery_module_bio = { add = "modular_artillery/modules/bio.png", addOn = "modular_artillery/modules/bioOn.png", effect = function(weapon) weapon.blueprint.damage.iPersDamage = 6 weapon.blueprint.damage.iShieldPiercing = 2 weapon.blueprint.damage.iDamage = weapon.blueprint.damage.iDamage - 2  end },
+    artillery_module_stun = { add = "modular_artillery/modules/stun.png", addOn = "modular_artillery/modules/stunOn.png", effect = function(weapon) weapon.blueprint.damage.stunChance = 10 weapon.blueprint.damage.iStun = 20 end },
+    artillery_module_pierce = { add = "modular_artillery/modules/pierce.png", addOn = "modular_artillery/modules/pierceOn.png", effect = function(weapon) weapon.blueprint.damage.iShieldPiercing = 1 end },
+    artillery_module_lockdown = { add = "modular_artillery/modules/lockdown.png", addOn = "modular_artillery/modules/lockdownOn.png", effect = function(weapon) hektar.arti.lockdown = true end },
+    artillery_module_cooldown = { add = "modular_artillery/modules/cooldown.png", addOn = "modular_artillery/modules/cooldownOn.png", effect = function(weapon) weapon.blueprint.cooldown = 21 end },
+    artillery_module_power = {add = "modular_artillery/modules/beam/power.png", effect = function(weapon) weapon.blueprint.damage.iDamage = 4 end },
+    artillery_module_hull = {add = "modular_artillery/modules/beam/hull.png", effect = function(weapon) weapon.blueprint.damage.breachChance = 10 end },
+    artillery_module_fire = {add = "modular_artillery/modules/beam/fire.png", effect = function(weapon) weapon.blueprint.damage.fireChance = 10 end }
 }
 
 function hektar.arti.beam.resetStats(weapon)
@@ -382,7 +382,6 @@ script.on_internal_event(Defines.InternalEvents.ACTIVATE_POWER, function(power, 
             break
         end
     end
-	print("--")
 end)
 
 

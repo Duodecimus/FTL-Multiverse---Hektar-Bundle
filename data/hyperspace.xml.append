@@ -112,45 +112,27 @@
 	</mod-append:ship>
 
 	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR">
+		<hiddenAug>SHIP_HEKTAR</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>MODULAR_BASE</hiddenAug>
-		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>8</systemLimit>
 	</mod-append:customShip>
 
 	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR_2">
+		<hiddenAug>SHIP_HEKTAR</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>MODULAR_BASE</hiddenAug>
-		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>8</systemLimit>
 	</mod-append:customShip>
 
 	<mod-append:customShip name="PLAYER_SHIP_HEKTAR_MODULAR_3">
+		<hiddenAug>SHIP_HEKTAR</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
-		<hiddenAug>MODULAR_BASE</hiddenAug>
-		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>8</systemLimit>
 	</mod-append:customShip>
 	
 </mod:findLike>
-
-<augments>
-	<aug name="MODULAR_BASE"/>
-	<aug name="MODULAR_BASE_BASE"/>
-	<aug name="MODULAR_BIO"/>
-	<aug name="MODULAR_STUN"/>
-	<aug name="MODULAR_PIERCE"/>
-	<aug name="MODULAR_LOCKDOWN"/>
-	<aug name="MODULAR_COOLDOWN"/>
-	<aug name="MODULAR_POWER"/>
-	<aug name="MODULAR_HULL"/>
-	<aug name="MODULAR_FIRE"/>
-	<aug name="MODULAR_ACCURACY"/>
-</augments>
-
 
 <mod:findLike type="scripts">
 	<mod-append:script>data/hek_bun_scripts/ach_hektar.lua</mod-append:script>

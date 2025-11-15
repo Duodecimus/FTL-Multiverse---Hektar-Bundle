@@ -219,84 +219,6 @@ Inherited Slug stats: telepathic powers, mind control immunity</desc>
 		</colorList>
 	</crewBlueprint>
 
-	<augBlueprint name="MODULAR_BASE">
-		<title>No Attribute</title>
-		<desc>You do not have an attribute for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_BASE_BASE">
-		<title>No Status</title>
-		<desc>You do not have a status for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_BIO">
-		<title>Bio Status</title>
-		<desc>You have the Bio module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_STUN">
-		<title>Stun Status</title>
-		<desc>You have the Stun module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_PIERCE">
-		<title>Pierce Status</title>
-		<desc>You have the Pierce module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_LOCKDOWN">
-		<title>Lockdown Status</title>
-		<desc>You have the Lockdown module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_COOLDOWN">
-		<title>Cooldown Status</title>
-		<desc>You have the Cooldown module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_POWER">
-		<title>Power Attribute</title>
-		<desc>You have the Power module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_HULL">
-		<title>Hull Attribute</title>
-		<desc>You have the Hull module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_FIRE">
-		<title>Fire Attribute</title>
-		<desc>You have the Fire module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-	<augBlueprint name="MODULAR_ACCURACY">
-		<title>Accuracy Attribute</title>
-		<desc>You have the Accuracy module for your artillery.</desc>
-		<cost>0</cost>
-		<rarity>0</rarity>
-		<stackable>false</stackable>
-	</augBlueprint>
-
 	<weaponBlueprint name="ARTILLERY_MODULAR_LASER">
 		<type>LASER</type>
 		<flavorType>Artillery</flavorType>
@@ -482,8 +404,6 @@ Affected by modules, check storage for stats</desc>
 		<crewCount amount="1" class="lizard" />
 		<aug name="MODULAR_STORE" />
 		<aug name="HEKTAR_GEL" />
-		<hiddenAug>MODULAR_BASE</hiddenAug>
-		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<mv-mapImage>map_icon_hektar_modu</mv-mapImage>
 	</shipBlueprint>
 
@@ -558,8 +478,6 @@ Affected by modules, check storage for stats</desc>
 		<crewCount amount="1" class="lizard" />
 		<aug name="MODULAR_STORE" />
 		<aug name="HEKTAR_GEL" />
-		<hiddenAug>MODULAR_BASE</hiddenAug>
-		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<mv-mapImage>map_icon_hektar_modu</mv-mapImage>
 	</shipBlueprint>
 
@@ -636,10 +554,17 @@ Affected by modules, check storage for stats</desc>
 		<crewCount amount="1" class="lizard" />
 		<aug name="MODULAR_STORE" />
 		<aug name="HEKTAR_GEL" />
-		<hiddenAug>MODULAR_BASE</hiddenAug>
-		<hiddenAug>MODULAR_BASE_BASE</hiddenAug>
 		<mv-mapImage>map_icon_hektar_modu</mv-mapImage>
 	</shipBlueprint>
+
+<augBlueprint name="SHIP_HEKTAR">
+	<title>Hektar Modular Cruiser(TM)</title>
+	<desc>YOU SHOULD NEVER SEE THIS</desc>
+	<cost>0</cost>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<bp>0</bp>
+</augBlueprint>
 
 <weaponBlueprint name="MODULAR_LASER_BASE_ADAPT">
 	<type>LASER</type>

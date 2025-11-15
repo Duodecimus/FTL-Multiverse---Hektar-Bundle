@@ -1,0 +1,18 @@
+<FTL>
+	<mod:findName type="event" name="TRUE_LAST_STAND_START">
+		<mod:findLike type="choice">
+			<mod:findLike type="event">
+				<mod-append:choice hidden="true" max_group="1" req="SHIP_HEKTAR" blue="false">
+					<text>Contact Federation command.</text>
+					<event>
+						<text>On the vidscreen appears several Federation and Engi officers, as well as Admiral Tully in the center. His face falls as he recognizes your ship, but he quickly rallies; "I see the Hektar corperation has a new product to sell. I'm sure we can pay whatever price you like, after you give us a demonstration of it's capabilites against that flagship."</text>
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event load="LAST_STAND_START_2"/>
+						</choice>
+					</event>
+				</mod-append:choice>
+			</mod:findLike>
+		</mod:findLike>
+	</mod:findName>
+</FTL>

@@ -63,3 +63,6 @@ Changelog, Post merge
 - V 0.1.3
     Cleared out the duplicate Hektar crew drones from the Crapbucket list
     Added Hektar attack drones to the Crapbucket list, and to a number of bluelists
+- V 0.1.4
+    Fixed modules not applying to the Hektar artillery
+    Added a ship type for Hektar ships when talking to Tully in Node 17
