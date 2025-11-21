@@ -66,3 +66,6 @@ Changelog, Post merge
 - V 0.1.4
     Fixed modules not applying to the Hektar artillery
     Added a ship type for Hektar ships when talking to Tully in Node 17
+-V 0.1.5
+    Cleaned up the description of Beam attack drones, to note that they cannot use Adaptive, Chain, and Charge modules
+    Added all crew drones to the basic technomorph battle drone list

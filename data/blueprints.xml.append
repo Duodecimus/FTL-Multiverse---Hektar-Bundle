@@ -10070,7 +10070,13 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.</desc>
+	Incompatible with the following module(s):
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
+	</desc>
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
@@ -10089,7 +10095,11 @@ Incompatible with the accuracy and lockdown module.</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Status - Pierce</desc>
 	<power>2</power>
@@ -10110,7 +10120,11 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Status - Bio</desc>
 	<power>2</power>
@@ -10131,7 +10145,11 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Status - Cooldown</desc>
 	<power>2</power>
@@ -10152,7 +10170,11 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Status - Stun</desc>
 	<power>2</power>
@@ -10173,7 +10195,11 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire</desc>
 	<power>2</power>
@@ -10194,7 +10220,11 @@ Attribute - Fire</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull</desc>
 	<power>2</power>
@@ -10215,7 +10245,11 @@ Attribute - Hull</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power</desc>
 	<power>3</power>
@@ -10236,7 +10270,11 @@ Attribute - Power</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Pierce</desc>
@@ -10258,7 +10296,11 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Bio</desc>
@@ -10280,7 +10322,11 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Cooldown</desc>
@@ -10302,7 +10348,11 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Fire
 Status - Stun</desc>
@@ -10324,7 +10374,11 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Pierce</desc>
@@ -10346,7 +10400,11 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Bio</desc>
@@ -10368,7 +10426,11 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Cooldown</desc>
@@ -10390,7 +10452,11 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Hull
 Status - Stun</desc>
@@ -10412,7 +10478,11 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Pierce</desc>
@@ -10434,7 +10504,11 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Bio</desc>
@@ -10456,7 +10530,11 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Cooldown</desc>
@@ -10478,7 +10556,11 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
-Incompatible with the accuracy and lockdown module.
+	Accuracy
+	Adaptive
+	Chain
+	Charge
+	Lockdown
 ----CURRENTLY INSTALLED MODULES----
 Attribute - Power
 Status - Stun</desc>
