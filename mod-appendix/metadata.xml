@@ -75,6 +75,8 @@ Changelog, Post merge
 -V 0.1.5
     Cleaned up the description of Beam attack drones, to note that they cannot use Adaptive, Chain, and Charge modules
     Added all crew drones to the basic technomorph battle drone list
+-V 0.1.6
+    Actually cleaned up the description of Beam attack drones
 ]]>
   </description>
 </metadata>

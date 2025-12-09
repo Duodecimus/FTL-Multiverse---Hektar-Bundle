@@ -10095,6 +10095,7 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10120,6 +10121,7 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10145,6 +10147,7 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10170,6 +10173,7 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10195,6 +10199,7 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10220,6 +10225,7 @@ Attribute - Fire</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10245,6 +10251,7 @@ Attribute - Hull</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10270,6 +10277,7 @@ Attribute - Power</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10296,6 +10304,7 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10322,6 +10331,7 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10348,6 +10358,7 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10374,6 +10385,7 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10400,6 +10412,7 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10426,6 +10439,7 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10452,6 +10466,7 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10478,6 +10493,7 @@ Status - Stun</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10504,6 +10520,7 @@ Status - Pierce</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10530,6 +10547,7 @@ Status - Bio</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
@@ -10556,6 +10574,7 @@ Status - Cooldown</desc>
 	<title>Modular Beam Drone</title>
 	<short>Mod. Beam</short>
 	<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam Drone. It supports 1 attribute module and 1 status module.
+	Incompatible with the following module(s):
 	Accuracy
 	Adaptive
 	Chain
