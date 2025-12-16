@@ -3,7 +3,8 @@ An expansion themed after Hektar Industries(tm).
 This is a merge of the mods Hektar Collection and Hektar Expansion, and the vast majority of content is sourced from those mods.
 
 Hektar Collection: https://ftlmultiverse.boards.net/thread/62/mv-5-4-hektar-collection
-Hektar Expansion: https://ftlmultiverse.boards.net/thread/71/5-4-6-hektar-expansion]
+Hektar Expansion: https://ftlmultiverse.boards.net/thread/71/5-4-6-hektar-expansion
+Modular Lockdown Beams: https://ftlmultiverse.boards.net/thread/10/lockdown-modular-beams-version-multiverse
 
 Patch Order:
 - Below Multiverse
@@ -16,10 +17,11 @@ Adds:
 - Modular Pinpoint
 - Modular Bomb
 - Modular Mine Launcher
+- Compatibility with the Lockdown module for beams
 
 - Modular Laser Drone
-- Modular ion Drone
-- Modular beam Drone
+- Modular Ion Drone
+- Modular Beam Drone
 
 Each capable of benefiting from Hektar Modules.
 
@@ -42,8 +44,9 @@ Credits:
 - DZenith: Modular Drone base Art, redraws of modular pinpoint and modular flak
 - Chrono Vortex: Code Recommendations, Starmap icon
 - Pepson: Code, Art, Design
-- RoadTrain: Space Optimization, xml tweaks, Adaptive, Chain and Charge modules, revamp of the storage menu, 
-- Duodecimus: Merged HC and HE, and some bug fixing
+- RoadTrain: Space Optimization, xml tweaks, Adaptive, Chain and Charge modules, revamp of the storage menu
+- Choosechee: Art and implementation of lockdown beams
+- Duodecimus: Merged HC, HE, and Lockdown Beams, and some bug fixing
 
 Changelog, Post merge
 - Version 0.1
@@ -71,3 +74,9 @@ Changelog, Post merge
     Added all crew drones to the basic technomorph battle drone list
 -V 0.1.6
     Actually cleaned up the description of Beam attack drones
+-V 0.1.7
+    Added most new Hektar weapons to the enemy Hektar weaponlist
+    Merged Lockdown Modular Beams by Choosechee
+    - Combined lua with existing handling for the Hektar Beam Artillary to remove Vertex Tags and Utility requirement
+    - Changed the storage checks of Lockdown Modular Beams to the fancy Bundle version
+    - Added lockdown beams to a few more bluelists

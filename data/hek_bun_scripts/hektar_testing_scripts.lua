@@ -54,6 +54,7 @@ end
 -- 1 to 22 are charge, adaptive and chain - hektar expansion
 -- 23 to 41 are bombs, flak, pinpoint and mines - hektar collection
 -- 24 to 55 are attack drones laser/beam/ion- hektar collection
+-- 56 are hektar beams with the lockdown module
 local modules = {
   "MODULE_ADAPT",
   "MODULE_CHAIN",
@@ -725,6 +726,16 @@ local dionpower = {
 }
 function hek55()
   give_hektar_drones(dionpower)
+end
+
+local beamlockdown = {
+  "MODULAR_BEAM_BASE_LOCKDOWN",
+  "MODULAR_BEAM_FIRE_LOCKDOWN",
+  "MODULAR_BEAM_HULL_LOCKDOWN",
+  "MODULAR_BEAM_POWER_LOCKDOWN",
+}
+function hek56()
+  give_hektar_weapons(beamlockdown)
 end
 
 --local  = {

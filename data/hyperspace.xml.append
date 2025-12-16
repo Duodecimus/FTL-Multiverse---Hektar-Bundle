@@ -1893,14 +1893,6 @@
 	
 
 <events>
-	<req name="CAN_PUT_LOCKDOWN_BEAM" type="all">
-		<name>CAN_PUT_LOCKDOWN</name>
-		<name>allowLockdownBeams</name>
-	</req>
-	<req name="CAN_PUT_LOCKDOWN_BEAM_STORAGE" type="all">
-		<name>storage_module_lockdown</name>
-		<name>allowLockdownBeams</name>
-	</req>
 	<variable name="artillery_module_accuracy" op="set" val="0"/>
 	<variable name="module_accuracy" op="set" val="0"/>
 	<variable name="artillery_module_charge" op="set" val="0"/>

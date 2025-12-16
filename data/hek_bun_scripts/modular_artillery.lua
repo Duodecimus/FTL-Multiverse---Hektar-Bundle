@@ -41,6 +41,13 @@ hektar.arti.moduleAttribute = {
     "artillery_module_fire",
     "artillery_module_accuracy"
 }
+hektar.LockdownBeams = {
+    ["MODULAR_BEAM_BASE_LOCKDOWN"] = true,
+    ["MODULAR_BEAM_FIRE_LOCKDOWN"] = true,
+    ["MODULAR_BEAM_HULL_LOCKDOWN"] = true,
+    ["MODULAR_BEAM_POWER_LOCKDOWN"] = true
+
+}
 
 function hektar.arti.getAttribute(ship)
     for _, module in ipairs(hektar.arti.moduleAttribute) do
@@ -338,7 +345,7 @@ end)
 --Beam Behaviour
 script.on_internal_event(Defines.InternalEvents.DAMAGE_BEAM, function(shipManager, projectile, location, damage, realNewTile, beamHitType)
     local beamName = Hyperspace.Get_Projectile_Extend(projectile).name
-    if beamName == "ARTILLERY_MODULAR_BEAM" and hektar.arti.lockdown and beamHitType == Defines.BeamHit.NEW_ROOM then
+    if ((beamName == "ARTILLERY_MODULAR_BEAM" and hektar.arti.lockdown) or hektar.LockdownBeams[beamName] ) and beamHitType == Defines.BeamHit.NEW_ROOM then
         shipManager.ship:LockdownRoom(get_room_at_location(shipManager, location, true), location)
     end
     return Defines.Chain.CONTINUE, beamHitType

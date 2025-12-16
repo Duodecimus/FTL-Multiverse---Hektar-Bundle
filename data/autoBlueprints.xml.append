@@ -27,6 +27,240 @@
 	<mod-append:name>MODULAR_FOCUS_BASE</mod-append:name>
 </mod:findName>
 
+<mod:findName type="blueprintList" name="LIST_WEAPONS_HEKTAR"> <!-- This is the list of weapons on enemy hektar ships -->
+	<mod-append:name>MODULAR_LASER_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_LASER_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_ACCURACY_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_LASER_ACCURACY_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_LASER_CHARGE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_LASER_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_LASER_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_LASER_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_LASER_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_ION_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_ION_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_ION_ACCURACY_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_ION_ACCURACY_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_ION_CHARGE</mod-append:name>
+	<!-- <mod-append:name>MODULAR_ION_CHARGE_ADAPT</mod-append:name> This might be too spicy for the enemy to use -->
+	<mod-append:name>MODULAR_ION_CHARGE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_ION_CHARGE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_ION_CHARGE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_ION_CHARGE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_ION_CHARGE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_ION_CHARGE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_ION_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_ION_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_ION_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_ION_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_ION_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_ION_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_ACCURACY_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_ACCURACY_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_CHARGE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MISSILE_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<!--<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name> This might be too spicy for the enemy to use -->
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY_BIO</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY_STUN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_ACCURACY_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL_BIO</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL_STUN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER_BIO</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER_STUN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BOMB_CHARGE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_BIO</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_STUN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_ACCURACY_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_BIO</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_STUN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_BIO</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_STUN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_SHOTGUN_CHARGE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL_BIO</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL_STUN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER_BIO</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER_STUN</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_FOCUS_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_BASE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE_COOLDOWN</mod-append:name>
+	<!-- <mod-append:name>MODULAR_MINELAUNCHER_FIRE_LOCKDOWN</mod-append:name> This might be too spicy for the enemy to use -->
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE_STUN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_STUN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_ACCURACY_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_STUN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_HULL_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_STUN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_ADAPT</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_BIO</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_COOLDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_PIERCE</mod-append:name>
+	<mod-append:name>MODULAR_MINELAUNCHER_CHARGE_STUN</mod-append:name>
+</mod:findName>
+
 <mod:findName type="blueprintList" name="LIST_WEAPONS_ALL">
 	<mod-append:name>MODULAR_LASER_BASE_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_LASER_BASE_CHAIN</mod-append:name>
@@ -89,6 +323,10 @@
 	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_BASE</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_BASE_BIO</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_BASE_COOLDOWN</mod-append:name>
@@ -322,6 +560,10 @@
 	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
 	
 	<mod-append:name>MODULAR_FOCUS_BASE</mod-append:name>
 	<mod-append:name>MODULAR_FOCUS_BASE_PIERCE</mod-append:name>
@@ -559,6 +801,10 @@
 	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
 	
 	<mod-append:name>MODULAR_FOCUS_BASE</mod-append:name>
 	<mod-append:name>MODULAR_FOCUS_BASE_PIERCE</mod-append:name>
@@ -1000,6 +1246,11 @@
 	<name>MODULAR_BEAM_POWER_STUN</name>
 	<name>MODULAR_BEAM_POWER_ADAPT</name>
 	<name>MODULAR_BEAM_POWER_CHAIN</name>
+	
+	<name>MODULAR_BEAM_BASE_LOCKDOWN</name>
+	<name>MODULAR_BEAM_FIRE_LOCKDOWN</name>
+	<name>MODULAR_BEAM_HULL_LOCKDOWN</name>
+	<name>MODULAR_BEAM_POWER_LOCKDOWN</name>
 	
 	<name>MODULAR_MISSILE_BASE</name>
 	<name>MODULAR_MISSILE_BASE_BIO</name>
@@ -1495,6 +1746,10 @@
 	<name>MODULAR_BEAM_POWER_PIERCE</name>
 	<name>MODULAR_BEAM_POWER_STUN</name>
 	
+	<name>MODULAR_BEAM_FIRE_LOCKDOWN</name>
+	<name>MODULAR_BEAM_HULL_LOCKDOWN</name>
+	<name>MODULAR_BEAM_POWER_LOCKDOWN</name>
+	
 	<name>MODULAR_MISSILE_ACCURACY</name>
 	<name>MODULAR_MISSILE_ACCURACY_BIO</name>
 	<name>MODULAR_MISSILE_ACCURACY_COOLDOWN</name>
@@ -1609,12 +1864,6 @@
 	<name>MODULAR_BOMB_POWER_LOCKDOWN</name>
 	<name>MODULAR_BOMB_POWER_STUN</name>
 
-	<name>MODULAR_MINELAUNCHER_BASE</name>
-	<name>MODULAR_MINELAUNCHER_BASE_BIO</name>
-	<name>MODULAR_MINELAUNCHER_BASE_PIERCE</name>
-	<name>MODULAR_MINELAUNCHER_BASE_COOLDOWN</name>
-	<name>MODULAR_MINELAUNCHER_BASE_LOCKDOWN</name>
-	<name>MODULAR_MINELAUNCHER_BASE_STUN</name>
 	<name>MODULAR_MINELAUNCHER_FIRE</name>
 	<name>MODULAR_MINELAUNCHER_ACCURACY</name>
 	<name>MODULAR_MINELAUNCHER_HULL</name>
@@ -1902,6 +2151,10 @@
 	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
@@ -1913,6 +2166,10 @@
 	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_FOCUS_ALL">
@@ -2074,6 +2331,7 @@
 	<mod-append:name>MODULAR_MISSILE_FIRE_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_FIRE_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_FIRE</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_FIRE_BIO</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_FIRE_COOLDOWN</mod-append:name>
@@ -2185,6 +2443,7 @@
 	<mod-append:name>MODULAR_MISSILE_FIRE_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_FIRE_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_FIRE</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_FIRE_BIO</mod-append:name>
 	<mod-append:name>MODULAR_BOMB_FIRE_COOLDOWN</mod-append:name>
@@ -2224,6 +2483,7 @@
 	<mod-append:name>MODULAR_ION_FIRE_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_FIRE_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_FIRE_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
 	<mod-append:name>MODULAR_SHOTGUN_FIRE</mod-append:name>
 	<mod-append:name>MODULAR_SHOTGUN_FIRE_BIO</mod-append:name>
 	<mod-append:name>MODULAR_SHOTGUN_FIRE_PIERCE</mod-append:name>
@@ -2369,6 +2629,10 @@
 	<mod-append:name>MODULAR_BEAM_HULL_CHAIN</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_ADAPT</mod-append:name>
 	<mod-append:name>MODULAR_BEAM_POWER_CHAIN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_BASE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_FIRE_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_HULL_LOCKDOWN</mod-append:name>
+	<mod-append:name>MODULAR_BEAM_POWER_LOCKDOWN</mod-append:name>
 </mod:findName>
 
 <blueprintList name="HEKTAR_MODULAR_FOCUS">

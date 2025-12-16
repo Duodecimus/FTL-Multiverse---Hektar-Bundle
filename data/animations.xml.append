@@ -1,6 +1,6 @@
 <FTL>
 
-<!-- Hektar Colletion-->
+<!-- Hektar Collection -->
 	<animSheet name="slug_hektar_elite" w="315" h="455" fw="35" fh="35">people/slug_hektar_elite_base.png</animSheet>
 	<anim name="slug_hektar_elite_clone">
 		<sheet>slug_hektar_elite</sheet>
@@ -3808,7 +3808,7 @@
 	<chargeImage>weapon_modular/modular_minelauncher_stun_glow.png</chargeImage>
 </weaponAnim>
 
-<!-- Hektar Expansion-->
+<!-- Hektar Expansion -->
 
 
 <animSheet name="module_adapt" w="55" h="38" fw="55" fh="38">weapon_modular/module_adapt.png</animSheet>
@@ -5820,4 +5820,50 @@
 	<desc length="1" x="0" y="0"/>
 	<time>1.0</time>
 </anim>
+
+<!-- Lockdown Modular Beams -->
+
+<animSheet name="modular_beam_base_lockdown" w="360" h="49" fw="36" fh="49">weapon_modular/modular_beam_base_lockdown.png</animSheet>
+<weaponAnim name="modular_beam_base_lockdown">
+	<sheet>modular_beam_base_lockdown</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="22" y="17"/>
+	<mountPoint x="7" y="32"/>
+	<chargeImage>weapon_modular/modular_beam_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="modular_beam_fire_lockdown" w="360" h="49" fw="36" fh="49">weapon_modular/modular_beam_fire_lockdown.png</animSheet>
+<weaponAnim name="modular_beam_fire_lockdown">
+	<sheet>modular_beam_fire_lockdown</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="22" y="17"/>
+	<mountPoint x="7" y="32"/>
+	<chargeImage>weapon_modular/modular_beam_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="modular_beam_hull_lockdown" w="360" h="49" fw="36" fh="49">weapon_modular/modular_beam_hull_lockdown.png</animSheet>
+<weaponAnim name="modular_beam_hull_lockdown">
+	<sheet>modular_beam_hull_lockdown</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="22" y="17"/>
+	<mountPoint x="7" y="32"/>
+	<chargeImage>weapon_modular/modular_beam_glow.png</chargeImage>
+</weaponAnim>
+
+<animSheet name="modular_beam_power_lockdown" w="360" h="49" fw="36" fh="49">weapon_modular/modular_beam_power_lockdown.png</animSheet>
+<weaponAnim name="modular_beam_power_lockdown">
+	<sheet>modular_beam_power_lockdown</sheet>
+	<desc length="10" x="0" y="0"/>
+	<chargedFrame>1</chargedFrame>
+	<fireFrame>2</fireFrame>
+	<firePoint  x="22" y="17"/>
+	<mountPoint x="7" y="32"/>
+	<chargeImage>weapon_modular/modular_beam_glow.png</chargeImage>
+</weaponAnim>
 </FTL>

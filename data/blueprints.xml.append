@@ -120,7 +120,7 @@ Effects for all drones: Increase speed by 50% (2x attack speed for boarding dron
 	
 <mod:findName type="weaponBlueprint" name="MODULE_LOCKDOWN">
 <mod-append:desc>Hektar Industries(TM) brand Status Lockdown Module. Turn your modular weapons into the next generation of tech and cause chaos on the enemy ship with patented lockdown tech!
-Incompatible with the Modular Beam/Pinpoint.
+Incompatible with the Modular Pinpoint.
 Effects for all weapons: Applies lockdown on impact
 Boarding Drone: Periodically lockdown the room</mod-append:desc>
 </mod:findName>
@@ -3753,8 +3753,7 @@ Affected by modules, check storage for stats</desc>
 	<mod-append:desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam. It supports 1 attribute module and 1 status module.
 	Incompatible with the following module(s):
 	Accuracy
-	Charge
-	Lockdown</mod-append:desc>
+	Charge</mod-append:desc>
 </mod:findName>
 <weaponBlueprint name="MODULAR_BEAM_BASE_ADAPT">
 	<type>BEAM</type>
@@ -3765,7 +3764,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Status - Adaptive</desc>
 	<damage>2</damage>
@@ -3796,7 +3794,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Status - Radiation</mod-append:desc>
 	<mod-append:color><r>255</r><g>8</g><b>200</b></mod-append:color>
@@ -3811,7 +3808,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Status - Chain</desc>
 	<damage>2</damage>
@@ -3842,7 +3838,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Status - Cooldown</mod-append:desc>
 	<mod-append:cost>120</mod-append:cost>
@@ -3852,7 +3847,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Status - Pierce</mod-append:desc>
 	<mod-append:cost>100</mod-append:cost>
@@ -3862,7 +3856,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Status - Neural</mod-append:desc>
 	<mod-append:color><r>255</r><g>230</g><b>94</b></mod-append:color>
@@ -3873,7 +3866,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter</mod-append:desc>
 	<mod-append:cost>110</mod-append:cost>
@@ -3887,7 +3879,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter
 	Status - Adaptive</desc>
@@ -3919,7 +3910,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter
 	Status - Radiation</mod-append:desc>
@@ -3935,7 +3925,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter
 	Status - Chain</desc>
@@ -3967,7 +3956,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter
 	Status - Cooldown</mod-append:desc>
@@ -3978,7 +3966,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter
 	Status - Pierce</mod-append:desc>
@@ -3989,7 +3976,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Firestarter
 	Status - Neural</mod-append:desc>
@@ -4001,7 +3987,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster</mod-append:desc>
 	<mod-append:cost>115</mod-append:cost>
@@ -4015,7 +4000,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster
 	Status - Adaptive</desc>
@@ -4048,7 +4032,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster
 	Status - Radiation</mod-append:desc>
@@ -4064,7 +4047,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster
 	Status - Chain</desc>
@@ -4097,7 +4079,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster
 	Status - Cooldown</mod-append:desc>
@@ -4108,7 +4089,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster
 	Status - Pierce</mod-append:desc>
@@ -4119,7 +4099,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Hullbuster
 	Status - Neural</mod-append:desc>
@@ -4131,7 +4110,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power</mod-append:desc>
 	<mod-append:cost>110</mod-append:cost>
@@ -4145,7 +4123,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power
 	Status - Adaptive</desc>
@@ -4177,7 +4154,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power
 	Status - Radiation</mod-append:desc>
@@ -4193,7 +4169,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power
 	Status - Chain</desc>
@@ -4225,7 +4200,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power
 	Status - Cooldown</mod-append:desc>
@@ -4236,7 +4210,6 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power
 	Status - Pierce</mod-append:desc>
@@ -4247,13 +4220,142 @@ Affected by modules, check storage for stats</desc>
 	Incompatible with the following module(s):
 	Accuracy
 	Charge
-	Lockdown
 	----CURRENTLY INSTALLED MODULES----
 	Attribute - Power
 	Status - Neural</mod-append:desc>
 	<mod-append:color><r>255</r><g>230</g><b>94</b></mod-append:color>
 	<mod-append:cost>130</mod-append:cost>
 </mod:findName>
+
+	<weaponBlueprint name="MODULAR_BEAM_BASE_LOCKDOWN">
+		<type>BEAM</type>
+		<tip>tip_beams</tip>
+		<title>Modular Beam</title>
+		<short>Mod. Beam</short>
+		<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam. It supports 1 attribute module and 1 status module.
+		Incompatible with the following module(s):
+		Accuracy
+		Charge
+		----CURRENTLY INSTALLED MODULES----
+		Status - Lockdown</desc>
+		<tooltip>Beam weapon, 2 damage per room.</tooltip>
+		<damage>2</damage>
+		<!--<lockdownBeam/> This is the tag from Vertex Utils, but we handle beam lockdown in modular_artillery instead-->
+		<sp>0</sp>
+		<fireChance>0</fireChance>
+		<breachChance>0</breachChance>
+		<cooldown>19</cooldown>
+		<power>3</power>
+		<cost>80</cost>
+		<bp>7</bp>
+		<rarity>0</rarity>
+		<length>70</length>
+		<image>beam_contact</image>
+		<launchSounds>
+			<sound>beam2</sound>
+		</launchSounds>
+		<weaponArt>modular_beam_base_lockdown</weaponArt>
+		<iconImage>beam</iconImage>
+	</weaponBlueprint>
+
+	<weaponBlueprint name="MODULAR_BEAM_FIRE_LOCKDOWN">
+		<type>BEAM</type>
+		<tip>tip_beams</tip>
+		<title>Modular Beam</title>
+		<short>Mod. Beam</short>
+		<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam. It supports 1 attribute module and 1 status module.
+		Incompatible with the following module(s):
+		Accuracy
+		Charge
+		----CURRENTLY INSTALLED MODULES----
+		Attribute - Firestarter
+		Status - Lockdown</desc>
+		<tooltip>Beam weapon, 2 damage per room.</tooltip>
+		<damage>2</damage>
+		<!--<lockdownBeam/>-->
+		<sp>0</sp>
+		<fireChance>4</fireChance>
+		<breachChance>0</breachChance>
+		<cooldown>19</cooldown>
+		<power>3</power>
+		<cost>80</cost>
+		<bp>7</bp>
+		<rarity>0</rarity>
+		<length>70</length>
+		<image>beam_contact</image>
+		<launchSounds>
+			<sound>beam2</sound>
+		</launchSounds>
+		<weaponArt>modular_beam_fire_lockdown</weaponArt>
+		<iconImage>beam</iconImage>
+	</weaponBlueprint>
+
+	<weaponBlueprint name="MODULAR_BEAM_HULL_LOCKDOWN">
+		<type>BEAM</type>
+		<tip>tip_beams</tip>
+		<title>Modular Beam</title>
+		<short>Mod. Beam</short>
+		<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam. It supports 1 attribute module and 1 status module.
+		Incompatible with the following module(s):
+		Accuracy
+		Charge
+		----CURRENTLY INSTALLED MODULES----
+		Attribute - Hullbuster
+		Status - Lockdown</desc>
+		<tooltip>Beam weapon, 2 damage per room.</tooltip>
+		<damage>2</damage>
+		<hullBust>1</hullBust>
+		<!--<lockdownBeam/>-->
+		<sp>0</sp>
+		<fireChance>0</fireChance>
+		<breachChance>1</breachChance>
+		<cooldown>19</cooldown>
+		<power>3</power>
+		<cost>80</cost>
+		<bp>7</bp>
+		<rarity>0</rarity>
+		<length>70</length>
+		<image>beam_contact</image>
+		<launchSounds>
+			<sound>beam2</sound>
+		</launchSounds>
+		<weaponArt>modular_beam_hull_lockdown</weaponArt>
+		<iconImage>beam</iconImage>
+	</weaponBlueprint>
+
+	<weaponBlueprint name="MODULAR_BEAM_POWER_LOCKDOWN">
+		<type>BEAM</type>
+		<tip>tip_beams</tip>
+		<title>Modular Beam</title>
+		<short>Mod. Beam</short>
+		<desc>Produced by Hektar Industries(TM), this is the base for a Modular Beam. It supports 1 attribute module and 1 status module.
+		Incompatible with the following module(s):
+		Accuracy
+		Charge
+		----CURRENTLY INSTALLED MODULES----
+		Attribute - Power
+		Status - Lockdown</desc>
+		<tooltip>Beam weapon, 2 damage per room.</tooltip>
+		<damage>2</damage>
+		<!--<lockdownBeam/>-->
+		<sp>0</sp>
+		<fireChance>0</fireChance>
+		<breachChance>3</breachChance>
+		<cooldown>19</cooldown>
+		<power>4</power>
+		<speed>10</speed>
+		<cost>80</cost>
+		<bp>7</bp>
+		<rarity>0</rarity>
+		<length>130</length>
+		<image>beam_contact</image>
+		<launchSounds>
+			<sound>beam2</sound>
+		</launchSounds>
+		<weaponArt>modular_beam_power_lockdown</weaponArt>
+		<iconImage>beam</iconImage>
+	</weaponBlueprint>
+	
 <weaponBlueprint name="MODULAR_BOMB_BASE">
 	<type>BOMB</type>
 	<title>Modular Bomb</title>

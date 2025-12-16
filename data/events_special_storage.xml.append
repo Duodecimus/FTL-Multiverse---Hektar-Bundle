@@ -4899,6 +4899,14 @@
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
 		</event>
 	</choice>
+	<choice req="MODULAR_BEAM_BASE_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Beam [Lockdown Module]</text>
+		<event>
+			<removeItem>MODULAR_BEAM_BASE_LOCKDOWN</removeItem>
+			<variable name="module_lockdown" op="add" val="1"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
+		</event>
+	</choice>
 	<choice req="MODULAR_BEAM_FIRE" blue="false" hidden="true">
 		<text>Configure your Beam [Firestarter Module]</text>
 		<event>
@@ -4958,6 +4966,15 @@
 			<removeItem>MODULAR_BEAM_FIRE_STUN</removeItem>
 			<variable name="module_fire" op="add" val="1"/>
 			<variable name="module_stun" op="add" val="1"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
+		</event>
+	</choice>
+	<choice req="MODULAR_BEAM_FIRE_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Beam [Firestarter Module, Lockdown Module]</text>
+		<event>
+			<removeItem>MODULAR_BEAM_FIRE_LOCKDOWN</removeItem>
+			<variable name="module_fire" op="add" val="1"/>
+			<variable name="module_lockdown" op="add" val="1"/>
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
 		</event>
 	</choice>
@@ -5023,6 +5040,15 @@
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
 		</event>
 	</choice>
+	<choice req="MODULAR_BEAM_HULL_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Beam [Hullbust Module, Lockdown Module]</text>
+		<event>
+			<removeItem>MODULAR_BEAM_HULL_LOCKDOWN</removeItem>
+			<variable name="module_hull" op="add" val="1"/>
+			<variable name="module_lockdown" op="add" val="1"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
+		</event>
+	</choice>
 	<choice req="MODULAR_BEAM_POWER" blue="false" hidden="true">
 		<text>Configure your Beam [Power Module]</text>
 		<event>
@@ -5082,6 +5108,15 @@
 			<removeItem>MODULAR_BEAM_POWER_STUN</removeItem>
 			<variable name="module_power" op="add" val="1"/>
 			<variable name="module_stun" op="add" val="1"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
+		</event>
+	</choice>
+	<choice req="MODULAR_BEAM_POWER_LOCKDOWN" blue="false" hidden="true">
+		<text>Configure your Beam [Power Module, Lockdown Module]</text>
+		<event>
+			<removeItem>MODULAR_BEAM_POWER_LOCKDOWN</removeItem>
+			<variable name="module_power" op="add" val="1"/>
+			<variable name="module_lockdown" op="add" val="1"/>
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
 		</event>
 	</choice>
@@ -5220,6 +5255,22 @@
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
 		</event>
 	</choice>
+	<choice req="CAN_PUT_LOCKDOWN" blue="false">
+		<text>Attach a Lockdown module from your cargo.</text>
+		<event>
+			<variable name="module_lockdown" op="add" val="1"/>
+			<removeItem>MODULE_LOCKDOWN</removeItem>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
+		</event>
+	</choice>
+	<choice req="CAN_PUT_STORAGE_lockdown" blue="false">
+		<text>Attach a Lockdown module from your storage.</text>
+		<event>
+			<variable name="module_lockdown" op="add" val="1"/>
+			<variable name="storage_module_lockdown" op="add" val="-1"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM_BASE</queueEvent>
+		</event>
+	</choice>
 	<choice req="CAN_PUT_STUN" blue="false">
 		<text>Attach a Neural module from your cargo.</text>
 		<event>
@@ -5283,6 +5334,14 @@
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
 		</event>
 	</choice>
+	<choice req="MODULES_LOCKDOWN" blue="false">
+		<text>[Lockdown Module]</text>
+		<event>
+			<variable name="module_lockdown" op="add" val="-1"/>
+			<weapon name="MODULAR_BEAM_BASE_LOCKDOWN"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
+		</event>
+	</choice>
 	<choice req="MODULES_STUN" blue="false">
 		<text>[Neural Module]</text>
 		<event>
@@ -5341,6 +5400,15 @@
 			<variable name="module_fire" op="add" val="-1"/>
 			<variable name="module_pierce" op="add" val="-1"/>
 			<weapon name="MODULAR_BEAM_FIRE_PIERCE"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
+		</event>
+	</choice>
+	<choice req="MODULES_FIRE_LOCKDOWN" blue="false">
+		<text>[Fire Module, Lockdown Module]</text>
+		<event>
+			<variable name="module_fire" op="add" val="-1"/>
+			<variable name="module_lockdown" op="add" val="-1"/>
+			<weapon name="MODULAR_BEAM_FIRE_LOCKDOWN"/>
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
 		</event>
 	</choice>
@@ -5406,6 +5474,15 @@
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
 		</event>
 	</choice>
+	<choice req="MODULES_HULL_LOCKDOWN" blue="false">
+		<text>[Hull Module, Lockdown Module]</text>
+		<event>
+			<variable name="module_hull" op="add" val="-1"/>
+			<variable name="module_lockdown" op="add" val="-1"/>
+			<weapon name="MODULAR_BEAM_HULL_LOCKDOWN"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
+		</event>
+	</choice>
 	<choice req="MODULES_HULL_STUN" blue="false">
 		<text>[Hullbust Module, Neural Module]</text>
 		<event>
@@ -5465,6 +5542,15 @@
 			<variable name="module_power" op="add" val="-1"/>
 			<variable name="module_pierce" op="add" val="-1"/>
 			<weapon name="MODULAR_BEAM_POWER_PIERCE"/>
+			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
+		</event>
+	</choice>
+	<choice req="MODULES_POWER_LOCKDOWN" blue="false">
+		<text>[Power Module, Lockdown Module]</text>
+		<event>
+			<variable name="module_power" op="add" val="-1"/>
+			<variable name="module_lockdown" op="add" val="-1"/>
+			<weapon name="MODULAR_BEAM_POWER_LOCKDOWN"/>
 			<queueEvent>STORAGE_CHECK_MODULAR_BEAM</queueEvent>
 		</event>
 	</choice>
